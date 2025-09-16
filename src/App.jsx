@@ -3,7 +3,7 @@
  * @description Main component of the application
  * @module App
  *
- * @createdBy Yotam Haimovitch & Raziel Otick
+
  */
 
 import { useState, useEffect } from 'react';
