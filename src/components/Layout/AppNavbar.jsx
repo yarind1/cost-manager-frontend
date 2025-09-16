@@ -35,28 +35,28 @@ function AppNavbar({ toggleTheme, isDarkMode }) {
 
                 {/* Home */}
                 <Tooltip title="Home">
-                    <IconButton color="inherit" component={Link} to="/FED/">
+                    <IconButton color="inherit" component={Link} to="/">
                         <HomeIcon fontSize="large" />
                     </IconButton>
                 </Tooltip>
 
                 {/* Monthly Report (Pie Chart) */}
                 <Tooltip title="Report (Pie Chart)">
-                    <IconButton color="inherit" component={Link} to="/FED/report">
+                    <IconButton color="inherit" component={Link} to="/report">
                         <AssessmentIcon fontSize="large" />
                     </IconButton>
                 </Tooltip>
 
                 {/* Yearly Report (Bar Chart) */}
                 <Tooltip title="Yearly Report (Bar Chart)">
-                    <IconButton color="inherit" component={Link} to="/FED/yearly">
+                    <IconButton color="inherit" component={Link} to="/yearly">
                         <BarChartIcon fontSize="large" />
                     </IconButton>
                 </Tooltip>
 
                 {/* Settings */}
                 <Tooltip title="Settings">
-                    <IconButton color="inherit" component={Link} to="/FED/settings">
+                    <IconButton color="inherit" component={Link} to="/settings">
                         <SettingsIcon fontSize="large" />
                     </IconButton>
                 </Tooltip>
