@@ -16,8 +16,8 @@ import AppNavbar from './components/Layout/AppNavbar';
 // Pages
 import MainPage from './pages/MainPage';
 import ReportPage from './pages/ReportPage';
-import YearlyReport from './pages/YearlyReport';   // ✅ new
-import Settings from './pages/Settings';           // ✅ new
+import YearlyReport from './pages/YearlyReport';   
+import Settings from './pages/Settings';         
 
 import './styles.css';
 
@@ -38,10 +38,10 @@ function App() {
             <Router>
                 <AppNavbar toggleTheme={toggleTheme} isDarkMode={isDarkMode}/>
                 <Routes>
-                    <Route path="/FED/" element={<MainPage />} />
-                    <Route path="/FED/report" element={<ReportPage />} />
-                    <Route path="/FED/yearly" element={<YearlyReport />} />   {/* ✅ new */}
-                    <Route path="/FED/settings" element={<Settings />} />     {/* ✅ new */}
+                    <Route path="/" element={<MainPage />} />
+                    <Route path="/report" element={<ReportPage />} />
+                    <Route path="/yearly" element={<YearlyReport />} />   {/* */}
+                    <Route path="/settings" element={<Settings />} />     {/* */}
                 </Routes>
             </Router>
         </ThemeProvider>
